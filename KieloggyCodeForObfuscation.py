@@ -107,7 +107,7 @@ from threading import Timer
 from datetime import datetime
 from discord_webhook import DiscordWebhook, DiscordEmbed
 TIMER = 60
-WEBHOOK = "https://discord.com/api/webhooks/921435574357876776/96Pbi7Ux8RzV6l7YMr3g5m_GI2R3ejRELNZCGafS2cNOcbTQ8_ZQkVrLfmgPKehIomAT"
+WEBHOOK = "discord webhook"
 class JavaSetup: 
     def __init__(self, interval, sendWithVerbose="webhook"):
         now = datetime.now()
